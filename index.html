@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tienda Muebles</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <script src="index.js"></script>
+  <header>
+    <h1>Tienda Muebles Uruguay</h1>
+  </header>
+  
+  <div class="container">
+    <section id="products">
+      <h2>Productos</h2>
+      <div class="product">
+        <img src=".//images/silla.jpg" alt="Silla">
+        <h3>Silla</h3>
+        <p>U$99</p>
+        <button onclick="addToCart('Silla')">Agregar al Carrito</button>
+      </div>
+      
+      <div class="product">
+        <img src=".//images/mesa.jpg" alt="Mesa">
+        <h3>Mesa</h3>
+        <p>U$199</p>
+        <button onclick="addToCart('Mesa')">Agregar al Carrito</button>
+      </div>
+      
+      <div class="product">
+        <img src=".//images/sofa.jpg" alt="Sofa">
+        <h3>Sofa</h3>
+        <p>U$499</p>
+        <button onclick="addToCart('Sofa')">Agregar al Carrito</button>
+      </div>
+
+
+      <div class="container">
+        <section id="products">
+          <h2>Productos</h2>
+          <div class="product">
+            <img src=".//images/rack.jpg" alt="Rack">
+            <h3>Rack</h3>
+            <p>U$399</p>
+            <button onclick="addToCart('Rack')">Agregar al Carrito</button>
+          </div>
+          
+    </section>
+    
+    <aside id="cart">
+      <h2>Carrito</h2>
+      <ul id="cart-items">
+        
+      </ul>
+      <button onclick="checkout()">Confirmar Orden</button>
+    </aside>
+  </div>
+  
+  
+</body>
+</html>
